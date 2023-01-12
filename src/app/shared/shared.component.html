@@ -1,0 +1,12 @@
+<div class="l-navbar" id="nav-bar">
+    <nav class="nav">
+        <div>
+            <h4 style="margin:35px 0px 30px 0px;"><a style="margin: 30px;color: aliceblue;text-decoration: none;" href="/home" class="logo">ExamPortal</a></h4>
+            <div class="nav_list">
+                <a routerLink="sinavlar"   class="nav_link" [class.active]="checkSinav"   (click)="checkActiveSinav()" >Sınavlar</a>
+                <a routerLink="ogrenciler" class="nav_link" [class.active]="checkOgrenci" (click)="checkActiveOgrenci()" >Öğrenciler</a>
+                <a routerLink="profilim"   class="nav_link" [class.active]="checkProfile" (click)="checkActiveProfile()" >Profilim</a>
+            </div>
+        </div> <a href="#" (click)="logOut()" class="nav_link"> <i class='bx bx-log-out nav_icon'></i> <span class="nav_name" >Çıkış Yap</span> </a>
+    </nav>
+</div>

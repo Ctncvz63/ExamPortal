@@ -1,0 +1,20 @@
+
+.l-navbar{
+    background-color: #4723D9;
+    padding: 1rem 0rem 0 0 ;
+    width: 200px;
+}
+.nav_link{
+    color: #F7F6FB;
+    text-decoration: none;
+}
+.nav_link:hover{
+    background-color: white;
+    color: #4723D9;
+    transition: 400ms;
+}
+.active{
+    background-color: white;
+    color: #4723D9;
+}
+

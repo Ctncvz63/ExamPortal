@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "exam-portal-13": {
+      "hosting": {
+        "exam": [
+          "exam-portal-13"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "exam-portal-13"
+  }
+}
